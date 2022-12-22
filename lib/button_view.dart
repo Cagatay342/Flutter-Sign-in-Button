@@ -62,7 +62,7 @@ class SignInButton extends StatelessWidget {
           image: Container(
             margin: mini
                 ? const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 0.0)
-                : const EdgeInsets.fromLTRB(0.0, 0.0, 10.0, 0.0),
+                : const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Image(
@@ -72,7 +72,7 @@ class SignInButton extends StatelessWidget {
                       : 'assets/logos/google_dark.png',
                   package: 'flutter_signin_button',
                 ),
-                height: 36.0,
+                height: 24.0,
               ),
             ),
           ),

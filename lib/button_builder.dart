@@ -59,7 +59,7 @@ class SignInButtonBuilder extends StatelessWidget {
     required this.text,
     this.icon,
     this.image,
-    this.fontSize = 14.0,
+    this.fontSize = 13.0,
     this.textColor = Colors.white,
     this.iconColor = Colors.white,
     this.splashColor = Colors.white30,
